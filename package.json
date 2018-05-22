@@ -1,0 +1,33 @@
+{
+  "name": "lenguaje",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Diego",
+  "main": "dist/src/lenguaje.js",
+  "scripts": {
+    "build": "babel src/lenguaje.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoaaa/lenguaje.git"
+  },
+  "keywords": [
+    "diegoaaa",
+    "lenguaje",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Diego Ahumada <diego.ahumada.alzate@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegoaaa/lenguaje/issues"
+  },
+  "homepage": "https://github.com/diegoaaa/lenguaje#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
